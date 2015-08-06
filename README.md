@@ -2,7 +2,7 @@
 
 Take a directory of SVG files, optimize them, and compile them into a single file using `<symbol>` elements.
 
-
+Use case for SVG sprites: [https://css-tricks.com/svg-sprites-use-better-icon-fonts]
 
 Based off (svg-sprite)[https://www.npmjs.com/package/svg-sprite] for npm. This basic utility will allow you to use SVG sprites while only maintaining one instance of an SVG.
 
