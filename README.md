@@ -1,6 +1,6 @@
 # SvgSpriter
 
-Take a directory of SVG files, optimize them, and compile them into a single file using `<symbol>` elements.
+Take a directory of SVG files, optimize them, and compile them into a single sprite file using `<symbol>` elements.
 
 Use case for SVG sprites: https://css-tricks.com/svg-sprites-use-better-icon-fonts
 
