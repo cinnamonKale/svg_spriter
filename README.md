@@ -1,12 +1,16 @@
 # SvgSpriter
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/svg_spriter`. To experiment with that code, run `bin/console` for an interactive prompt.
+Take a directory of SVG files, optimize them, and compile them into a single file using `<symbol>` elements.
 
-TODO: Delete this and the text above, and describe your gem
+
+
+Based off (svg-sprite)[https://www.npmjs.com/package/svg-sprite] for npm. This basic utility will allow you to use SVG sprites while only maintaining one instance of an SVG.
+
+Originally built for Nanoc to build a sprite when compiling site, but can be used in any Ruby application.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application’s Gemfile:
 
 ```ruby
 gem 'svg_spriter'
@@ -22,20 +26,29 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+During compile, run:
 
-## Development
+```ruby
+sprite_svg(source, output)
+```
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+where source is something like /static/svg. Output is optional, and will use the source if not specified.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## TODO
+
++ Allow for more robust SVGs. Currently only simple SVGs compile reliably
++ Allow for subdirectories of source directory
++ Add more tests for checking integrity of compiled sprite
+
+## Author’s note
+
+This is my first RubyGem, and my experience with Ruby is limited. This was a way for me to learn more about Ruby, and I don't pretend to know the best way to do things in Ruby. So, any contributions or suggestions for this gem are appreciated.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/svg_spriter.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kylesimmonds/svg_spriter.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
