@@ -38,6 +38,7 @@ where source is something like /static/svg. Output is optional, and will use the
 + Allow for subdirectories of source directory
 + Add more tests for checking integrity of compiled sprite
 + Handle SVGs with duplicate ids
++ Pull id from filename if none is specified within the opening `<svg>` tag
 
 ## Author’s note
 
