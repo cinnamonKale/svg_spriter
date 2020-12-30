@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "svg_spriter"
   spec.version       = SvgSpriter::VERSION
   spec.authors       = ["Kyle Simmonds"]
-  spec.email         = ["kylesimmonds@users.noreply.github.com"]
+  spec.email         = ["cinnamonkale@users.noreply.github.com"]
 
   spec.summary       = %q{Take a directory of SVG files, optimize them, and compile them into a single file using <symbol> elements.}
   spec.description   = %q{Based off svg-sprite for npm, this basic utility will allow you to use SVG sprites while only maintaining one instance of an SVG.}
-  spec.homepage      = "https://github.com/kylesimmonds/svg-spriter"
+  spec.homepage      = "https://github.com/cinnamonkale/svg-spriter"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

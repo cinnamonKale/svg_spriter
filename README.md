@@ -46,7 +46,7 @@ This is my first RubyGem, and my experience with Ruby is limited. This was a way
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kylesimmonds/svg_spriter.
+Bug reports and pull requests are welcome on GitHub at https://github.com/cinnamonkale/svg_spriter.
 
 ## License
 
